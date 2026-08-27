@@ -9,6 +9,17 @@
 
 ## Experiments
 
+Experimental artefacts are organised by dataset, model (branch) type, and run, with each run corresponding to a different random seed.
+
+For example, the files in `experiments/sds/dataset-adapted/2` correspond to the second run of the dataset-adapted approach on the SeaDronesSee dataset.
+
+For each experiment, the following files are provided:
+
+- `coco_eval.txt` — COCO evaluation output produced by the Python COCO API.
+- `config.json` — Training configuration reported by the Ultralytics API.
+- `output.log` — Full training log produced by the Ultralytics API.
+- `results.csv` — Per-epoch training and validation metrics produced by the Ultralytics API.
+
 ## Scripts
 
 Miscellaneous scripts used to analyse datasets, prepare figures, and conduct the parameter sensitivity analysis.
