@@ -58,7 +58,7 @@ For each experiment, the following files are provided:
 - `output.log` — Full training log produced by the Ultralytics API.
 - `results.csv` — Per-epoch training and validation metrics produced by the Ultralytics API.
 
-### Experiments - `scripts/`
+### Scripts - `scripts/`
 
 Miscellaneous scripts used to analyse datasets, prepare figures, and conduct the parameter sensitivity analysis.
 
