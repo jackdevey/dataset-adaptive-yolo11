@@ -72,4 +72,14 @@ The scripts are provided in the form used during the experiments and may contain
 
 ### Example - 'example.py'
 
-A
+`example.py` provides a minimal example of the complete training and evaluation pipeline. It demonstrates how to configure a dataset and experiment, create a model using the proposed dataset-adaptive approach, train the resulting model, and evaluate its performance.
+
+By default, `create_model()` automatically selects a branch based on the dataset. The example also shows how to explicitly select a branch (A, B, or C) for ablation experiments, or bypass the dataset-adaptive approach and provide a standard YOLO model configuration or weights.
+
+Before running the example, replace DATASET_PATH, PROJECT_NAME, DEVICE, and RUN_NAME with values appropriate for the target environment.
+
+The example should then be executed from the repository root:
+
+```sh
+python -m example
+```
