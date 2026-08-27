@@ -1,4 +1,4 @@
-# Source code and experimental artefacts for '[A Dataset-Adaptive YOLO11 Architecture Modification Framework for Enhancing Small-Object Detection]()'
+# Source code and experimental artefacts for 'A Dataset-Adaptive YOLO11 Architecture Modification Framework for Enhancing Small-Object Detection'
 
 **Jack Devey**<sup>1</sup> <a href="https://orcid.org/0009-0002-9513-2817"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" width="16"></a>, **Moad Idrissi**<sup>2</sup> <a href="https://orcid.org/0000-0002-9995-3180"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" width="16"></a>, **Haitham Hassan Mahmoud**<sup>1</sup>, **Mohamed Gaber**<sup>1</sup>, **Rehan Bhana**<sup>1</sup>
 
