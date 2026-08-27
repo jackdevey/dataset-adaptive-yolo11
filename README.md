@@ -4,3 +4,19 @@
 
 1. Department of Computer Science, Birmingham City University, Birmingham B4 7BD, UK </br> `jack.devey@mail.bcu.ac.uk, {haitham.mahmoud,mohamed.gaber,rehan.bhana}@bcu.ac.uk`
 2. School of Computing and Data Science, Oryx Universal College | Liverpool John Moores University (OUC-LJMU), Doha, Qatar </br> `moad.i@oryx.edu.qa`
+
+## Dataset Adaptive YOLO11
+
+## Experiments
+
+## Scripts
+
+Miscellaneous scripts used to analyse datasets, prepare figures, and conduct the parameter sensitivity analysis.
+
+The scripts may import from the `dataset_adaptive_yolo11` package and should therefore be executed from the repository root, for example:
+
+```sh
+python -m scripts.dataset-boxplots [...]
+```
+
+The scripts are provided in the form used during the experiments and may contain hard-coded file paths. These paths should be adjusted as required for the local environment.
