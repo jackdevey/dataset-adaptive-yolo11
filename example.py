@@ -1,11 +1,16 @@
 from dataset_adaptive_yolo11.pipeline import Pipeline
 
+DATASET_PATH = ""
+DEVICE = ""
+PROJECT_NAME = ""
+RUN_NAME = ""
+
 p = Pipeline(
-    dataset_yaml_path="DATASET_PATH",
-    project="PROJECT_NAME",
+    dataset_yaml_path=DATASET_PATH,
+    project=PROJECT_NAME,
     config={
-        "device": "DEVICE",
-        "name": "RUN_NAME",
+        "device": DEVICE,
+        "name": RUN_NAME,
     },
 )
 
