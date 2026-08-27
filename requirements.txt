@@ -1,9 +1,14 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+
 loguru==0.7.3
 ultralytics==8.3.150
 requests==2.32.3
-torch==2.6.0+cu118
+torch==2.6.0
 pydantic==2.11.5
 pycocotools==2.0.10
 tqdm==4.67.1
 opencv-python==4.11.0.86
 PyYAML==6.0.2
+pandas==2.2.3
+matplotlib==3.10.1
+numpy==2.1.1
