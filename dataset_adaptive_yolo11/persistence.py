@@ -6,7 +6,7 @@ from collections.abc import Callable
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from utils.pipeline import Pipeline
+    from dataset_adaptive_yolo11.pipeline import Pipeline
 
 
 class Persistence:

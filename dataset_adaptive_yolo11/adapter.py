@@ -2,10 +2,10 @@ from typing import TYPE_CHECKING
 
 from ultralytics import YOLO
 
-import utils.strings
+import dataset_adaptive_yolo11.strings
 
 if TYPE_CHECKING:
-    from utils.pipeline import Pipeline
+    from dataset_adaptive_yolo11.pipeline import Pipeline
 
 
 class Adapter:
@@ -42,15 +42,15 @@ class Adapter:
             match abl_branch:
                 case "A":
                     path = self.pipeline.persistence.save_file(
-                        "model.yaml", utils.strings.BRANCHING_A_YAML
+                        "model.yaml", dataset_adaptive_yolo11.strings.BRANCHING_A_YAML
                     )
                 case "B":
                     path = self.pipeline.persistence.save_file(
-                        "model.yaml", utils.strings.BRANCHING_B_YAML
+                        "model.yaml", dataset_adaptive_yolo11.strings.BRANCHING_B_YAML
                     )
                 case "C":
                     path = self.pipeline.persistence.save_file(
-                        "model.yaml", utils.strings.BRANCHING_C_YAML
+                        "model.yaml", dataset_adaptive_yolo11.strings.BRANCHING_C_YAML
                     )
             return YOLO(model=path)
 
@@ -60,19 +60,19 @@ class Adapter:
         if a_score > b_score and a_score > c_score:
             self.pipeline.logger.info("Chosen type A (P1, P2, P3)")
             path = self.pipeline.persistence.save_file(
-                "model.yaml", utils.strings.BRANCHING_A_YAML
+                "model.yaml", dataset_adaptive_yolo11.strings.BRANCHING_A_YAML
             )
             return YOLO(model=path)
         elif b_score > a_score and b_score > c_score:
             self.pipeline.logger.info("Chosen type B (P2, P3, P4)")
             path = self.pipeline.persistence.save_file(
-                "model.yaml", utils.strings.BRANCHING_B_YAML
+                "model.yaml", dataset_adaptive_yolo11.strings.BRANCHING_B_YAML
             )
             return YOLO(model=path)
         elif c_score > a_score and c_score > b_score:
             self.pipeline.logger.info("Chosen type C (P3, P4, P5)")
             path = self.pipeline.persistence.save_file(
-                "model.yaml", utils.strings.BRANCHING_C_YAML
+                "model.yaml", dataset_adaptive_yolo11.strings.BRANCHING_C_YAML
             )
             return YOLO(model=path)
         else:

@@ -6,11 +6,11 @@ from loguru import logger
 from pydantic import BaseModel, Field
 from ultralytics import YOLO
 
-from utils.adapter import Adapter
-from utils.dmanager import DataManager
-from utils.evaluator import COCOEvaluator
-from utils.notifications import TelegramAPI, add_training_callbacks
-from utils.persistence import Persistence
+from dataset_adaptive_yolo11.adapter import Adapter
+from dataset_adaptive_yolo11.dmanager import DataManager
+from dataset_adaptive_yolo11.evaluator import COCOEvaluator
+from dataset_adaptive_yolo11.notifications import TelegramAPI, add_training_callbacks
+from dataset_adaptive_yolo11.persistence import Persistence
 
 
 class Pipeline:

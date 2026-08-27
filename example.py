@@ -1,13 +1,6 @@
-from utils.pipeline import Pipeline
+from dataset_adaptive_yolo11.pipeline import Pipeline
 
-p = Pipeline(
-    dataset_yaml_path="",
-    project="",
-    config={
-        "device": "",
-        "name": ""
-    }
-)
+p = Pipeline(dataset_yaml_path="", project="", config={"device": "", "name": ""})
 
 p.create_model()
 

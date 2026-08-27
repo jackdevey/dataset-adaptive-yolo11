@@ -1,6 +1,6 @@
 import json
 
-from utils.dmanager import DataManager
+from dataset_adaptive_yolo11.dmanager import DataManager
 
 PYRAMID_LEVELS = ("P1", "P2", "P3", "P4", "P5")
 

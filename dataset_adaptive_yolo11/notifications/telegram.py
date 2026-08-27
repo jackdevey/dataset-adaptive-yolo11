@@ -4,7 +4,7 @@ import requests
 from pydantic import BaseModel, Field
 
 if TYPE_CHECKING:
-    from utils.pipeline import Pipeline
+    from dataset_adaptive_yolo11.pipeline import Pipeline
 
 
 class TelegramAPI(BaseModel):

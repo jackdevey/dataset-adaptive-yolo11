@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-from utils.notifications.telegram import TelegramAPI
+from dataset_adaptive_yolo11.notifications.telegram import TelegramAPI
 
 
 def add_training_callbacks(model: YOLO, telegram: TelegramAPI):

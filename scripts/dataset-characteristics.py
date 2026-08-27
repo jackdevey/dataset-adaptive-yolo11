@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 
 # Change this import to wherever DataManager is defined
-from utils.dmanager import DataManager
+from dataset_adaptive_yolo11.dmanager import DataManager
 
 dmanagers: dict[str, DataManager] = {
     "VisDrone-DET": DataManager("/data2/jd1/datasets/VisDrone/data.yaml"),

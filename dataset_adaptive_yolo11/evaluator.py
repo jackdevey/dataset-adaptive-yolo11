@@ -9,7 +9,7 @@ from pycocotools.cocoeval import COCOeval
 from tqdm import tqdm
 
 if TYPE_CHECKING:
-    from utils.pipeline import Pipeline
+    from dataset_adaptive_yolo11.pipeline import Pipeline
 
 
 @dataclass
