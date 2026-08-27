@@ -37,13 +37,13 @@ Then install the remaining dependencies:
 pip install -r requirements.txt
 ```
 
-See example.py for an example of using the dataset-adaptive YOLO11 pipeline.
+See `example.py` for an example of using the dataset-adaptive framework.
 
 ## Contents
 
 ### Dataset-Adaptive YOLO11 - `dataset_adaptive_yolo11/`
 
-TODO
+Implementation of the proposed dataset-adaptive framework as a python module. See `example.py` for an example of using the dataset-adaptive framework.
 
 ### Experiments - `experiments/`
 
