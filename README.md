@@ -19,7 +19,7 @@ cd dataset-adaptive-yolo11
 It is recommended to create a virtual environment before installing the dependencies:
 
 ```sh
-python 3.13 -m venv .venv
+python3.13 -m venv .venv
 source .venv/bin/activate
 ```
 
@@ -43,13 +43,13 @@ See `example.py` for an example of using the dataset-adaptive framework.
 
 ### Dataset-Adaptive YOLO11 - `dataset_adaptive_yolo11/`
 
-Implementation of the proposed dataset-adaptive framework as a python module. See `example.py` for an example of using the dataset-adaptive framework.
+Implementation of the proposed dataset-adaptive framework as a Python package. See `example.py` for an example of using the dataset-adaptive framework.
 
 ### Experiments - `experiments/`
 
 Experimental artefacts are organised by dataset, model (branch) type, and run, with each run corresponding to a different random seed.
 
-For example, the files in `experiments/sds/dataset-adapted/2` correspond to the second run of the dataset-adapted approach on the SeaDronesSee dataset.
+For example, the files in `experiments/sds/dataset-adapted/2` correspond to the dataset-adapted approach on the SeaDronesSee dataset using random seed 2.
 
 For each experiment, the following files are provided:
 
@@ -65,18 +65,18 @@ Miscellaneous scripts used to analyse datasets, prepare figures, and conduct the
 The scripts may import from the `dataset_adaptive_yolo11` package and should therefore be executed from the repository root, for example:
 
 ```sh
-python -m scripts.dataset-boxplots [...]
+python -m scripts.dataset_boxplots [...]
 ```
 
 The scripts are provided in the form used during the experiments and may contain hard-coded file paths. These paths should be adjusted as required for the local environment.
 
-### Example - 'example.py'
+### Example - `example.py`
 
 `example.py` provides a minimal example of the complete training and evaluation pipeline. It demonstrates how to configure a dataset and experiment, create a model using the proposed dataset-adaptive approach, train the resulting model, and evaluate its performance.
 
 By default, `create_model()` automatically selects a branch based on the dataset. The example also shows how to explicitly select a branch (A, B, or C) for ablation experiments, or bypass the dataset-adaptive approach and provide a standard YOLO model configuration or weights.
 
-Before running the example, replace DATASET_PATH, PROJECT_NAME, DEVICE, and RUN_NAME with values appropriate for the target environment.
+Before running the example, replace `DATASET_PATH`, `PROJECT_NAME`, `DEVICE`, and `RUN_NAME` with values appropriate for the target environment.
 
 The example should then be executed from the repository root:
 
