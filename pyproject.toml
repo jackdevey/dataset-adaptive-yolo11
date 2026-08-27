@@ -1,4 +1,4 @@
 [project]
 name = "dataset-adaptive-yolo11"
 version = "1.0.0"
-requires-python = ">=3.12"
+requires-python = ">=3.13.2"
