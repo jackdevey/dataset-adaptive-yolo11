@@ -83,3 +83,7 @@ The example should then be executed from the repository root:
 ```sh
 python -m example
 ```
+
+## License
+
+The source code and experimental data in this repository are licensed under the MIT License⁠.
