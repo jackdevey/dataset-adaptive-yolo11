@@ -49,7 +49,7 @@ def calculate_dataset_scores(
     for area in areas:
         scores = dmanager.calculate_fitness_scores(
             area,
-            preturb=perturbation,
+            perturb=perturbation,
         )
 
         for level, score in zip(PYRAMID_LEVELS, scores):
