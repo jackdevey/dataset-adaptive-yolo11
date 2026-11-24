@@ -1,9 +1,11 @@
-# Source code and experimental artefacts for 'A Dataset-Adaptive YOLO11 Architecture Modification Framework for Enhancing Small-Object Detection'
+# Source code and experimental artefacts for '[A Dataset-Adaptive YOLO11 Architecture Modification Framework for Enhancing Small-Object Detection]()'
 
-**Jack Devey**<sup>1</sup> <a href="https://orcid.org/0009-0002-9513-2817"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" width="16"></a>, **Moad Idrissi**<sup>2</sup> <a href="https://orcid.org/0000-0002-9995-3180"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" width="16"></a>, **Haitham Hassan Mahmoud**<sup>1</sup>, **Mohamed Gaber**<sup>1</sup>, **Rehan Bhana**<sup>1</sup>
+**Jack Devey**<sup>1</sup> <a href="https://orcid.org/0009-0002-9513-2817"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" width="16"></a>, **Moad Idrissi**<sup>2</sup> <a href="https://orcid.org/0000-0002-9995-3180"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" width="16"></a>, **Haitham Hassan Mahmoud**<sup>3</sup> <a href="https://orcid.org/0000-0001-9313-8663"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" width="16"></a>, **Mohamed Medhat Gaber**<sup>4</sup> <a href="https://orcid.org/0000-0003-0339-4474"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" width="16"></a>, **Rehan Bhana**<sup>3</sup>
 
-1. Department of Computer Science, Birmingham City University, Birmingham B4 7BD, UK </br> `jack.devey@mail.bcu.ac.uk, {haitham.mahmoud,mohamed.gaber,rehan.bhana}@bcu.ac.uk`
-2. School of Computing and Data Science, Oryx Universal College | Liverpool John Moores University (OUC-LJMU), Doha, Qatar </br> `moad.i@oryx.edu.qa`
+1. School of Engineering, University of Birmingham, Edgbaston, Birmingham, B15 2TT, UK </br> `jwd638@student.bham.ac.uk`
+2. College of Computing & Data Science, Oryx University | Liverpool John Moores University (OU-LJMU), Doha, Zone 55, Qatar </br> `moad.i@oryx.edu.qa`
+3. Department of Computer Science, Birmingham City University, Birmingham, B4 7BD, UK </br> `{haitham.mahmoud,rehan.bhana}@bcu.ac.uk`
+3. Centre for Accident Research & Road Safety - Queensland (CARRS-Q), Queensland University of Technology, Brisbane, QLD 4059, Australia </br> `mohamed.gaber@qut.edu.au`
 
 ## Installation
 
